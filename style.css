@@ -1,0 +1,23 @@
+.zoom {
+  overflow: hidden;
+  padding-bottom: 55%;
+}
+
+.zoom img {
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+html, body {
+  background: #000;
+  padding:10px;
+  height: 1000vh;
+  background: url('https://wallpapersite.com/images/wallpapers/mountains-3840x2160-landscape-panoramic-purple-4k-13155.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
